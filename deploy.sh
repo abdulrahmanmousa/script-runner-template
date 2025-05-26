@@ -4,8 +4,8 @@ echo "🚀 Deploying VPS Script..."
 
 # Check if Node.js is installed
 if ! command -v node &> /dev/null; then
-    echo "❌ Node.js is not installed. Please install Node.js first."
-    exit 1
+    echo "❌ Node.js is not installed. Trying to install Nodejs v23."
+    sudo snap install nvm && nvm install v23
 fi
 
 # Check if pnpm is installed, if not install it
