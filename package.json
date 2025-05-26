@@ -1,0 +1,29 @@
+{
+  "name": "vps-script-template",
+  "version": "1.0.0",
+  "description": "Template for deploying and running scripts on VPS with PM2",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "start": "node script.js",
+    "dev": "node --watch script.js",
+    "deploy": "./deploy.sh",
+    "status": "./status.sh",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.5.0",
+    "node-cron": "^3.0.3"
+  },
+  "keywords": [
+    "vps",
+    "automation",
+    "cron",
+    "nodejs",
+    "pm2",
+    "template"
+  ],
+  "author": "",
+  "license": "MIT"
+}

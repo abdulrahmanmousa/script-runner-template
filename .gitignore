@@ -1,0 +1,18 @@
+# Environment variables
+.env
+
+# Logs
+*.log
+logs/
+
+# Node modules
+node_modules/
+
+# PM2
+.pm2/
+
+# Status files
+status.json
+
+# Temporary files
+*.tmp
